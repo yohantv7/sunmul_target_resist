@@ -42,10 +42,10 @@ if __name__ == "__main__":
         )
 
     # 시세 데이터 (실시간 API 미연동 시 설정 데이터 기준)
-    samsung_price = 281500
-    kospi200_current = 1096.25
-    target_upper_index = 1120.00
-    target_lower_index = 1074.55
+    samsung_price = 256000
+    kospi200_current = 1054.01
+    target_upper_index = 1051.65
+    target_lower_index = 1051.75
 
     upper_price = calculate_target_price(
         samsung_price, kospi200_current, target_upper_index
