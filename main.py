@@ -45,7 +45,7 @@ if __name__ == "__main__":
     samsung_price = 256000
     kospi200_current = 1054.01
     target_upper_index = 1051.65
-    target_lower_index = 1051.75
+    target_lower_index = 1051.60
 
     upper_price = calculate_target_price(
         samsung_price, kospi200_current, target_upper_index
